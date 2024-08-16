@@ -2,5 +2,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "StarJedi Special Edition", sans-serif;
 }
 
+.Galáxia {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+header {
+    margin-top: 45px;
+    margin-left: 60px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+    color: #FEEA26;
+}
+
+button {
+    width: 122px;
+    height: 32px;
+    font-size: larger;
+    background: #FEEA26;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.Foto-Logo {
+    margin: 20px 40% 20px 38%;
+}
+
+.caixa-de-fontes {
+    display: ruby-text ;
+    line-height: 40px;
+    font-weight: 500;
+    color: #FEEA26;
+    text-align: center;
+}
+
+h1 {
+    align-items: center;
+}
+
+p {
+    width: 500px;
+   
+}
+
+
+
+/*
+     display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+.caixa-de-imagens {
+width: 100px;
+padding: 50px;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.Robos {
+    width: 300px;
+}
+
+footer {
+    background-color: #A6B1BD;
+}
+
+h2 {
+    display: ruby-text;
+    
+}
+
+footer .Logo-Mandaloriano {
+
+    position: static;
+    margin-left: 40%;
+    
+}
+
+.link-seguir {
+    font-size: large;
+   display: ruby-text;
+   color: black;
+   font-family: sans-serif;
+}
